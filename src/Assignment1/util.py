@@ -21,5 +21,6 @@ def calculate_total_spending(total_df):
     user_product_spending_df = total_df.groupBy("userid", "product_id").agg(sum("price").alias("TotalSpending"))
     return user_product_spending_df
     
+    
 
 
