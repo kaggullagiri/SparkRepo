@@ -60,4 +60,4 @@ def active_hours(df_torrent):
 
 def active_repo(df_torrent):
     active_repo=df_torrent.filter(col("repository_clients")==" ghtorrent.rb")
-    return active_repo
+    return active_repo 
