@@ -8,7 +8,7 @@ from pyspark.sql.functions import *
 class MyTestCase(unittest.TestCase):
     spark = SparkSession.builder.appName("Assignment2").getOrCreate()
     def test_Assignment(self):
-        filepath = "C:/Users/ASUS/PycharmProjects/pythonProject6/SparkRepo1/resource/ghtorrent-logs.txt"
+        filepath = "C:/Users/KOLAPRABHU&PARVATHI/PycharmProjects/SparkRepo/resource/ghtorrent-logs.txt""
         # creating spark session
         spark = spark_session()
 
